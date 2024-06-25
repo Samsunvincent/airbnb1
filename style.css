@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    background-color: rgb(220, 207, 207);
+    padding: 20px;
+}
+a{
+    color: black;
+}
+.section{
+    display: flex;
+}
+.left-section{
+    width: 118px;
+    height: 64px;
+    margin-left: 3em;
+    margin-top: 2em;
+    position: relative;
+}
+#airbnb{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: .3em;
+}
+.airbnb-logo-txt{
+  position: absolute;
+  top: .2em;
+  color: #FA5252;
+  font-size: 29px;
+  font-weight: 700;
+}
+.center-section{
+    display: flex;
+    width: 398.61px;
+    height: 47.6px;
+    margin-top: 2em;
+    margin-left: 25.8em;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+.stays-txt{
+    font-size: 20px;
+    font-weight: 700;
+}
+.experience-txt{
+    color: grey;
+    font-size: 20px;
+    font-weight: 700;
+}
+.right-section{
+    width: 460px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.2em;
+}
+.airbnb-home-txt{
+    font-size: 19px;
+    font-weight: 700;
+    color: #222222;
+    position: relative;
+    right: 20px;
+}
+#global-img{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: .3em;
+    left: .5em;
+}
+.border{
+    border: 1px solid black;
+    width: 85.6px;
+    height: 48px;
+    border-radius: 4em;
+    border-color: grey;
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center;
+}
+#menu-icon{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    right: 15px;
+}
+#user-icon{
+    width: 16px;
+    height: 16px;
+}
+.big-border{
+    width: 713px;
+    height: 63px;
+    border: 5px solid black;
+    /* background-color: black; */
+    margin-top: 1em;
+    border-radius: 4em;
+    margin-left: 19em;
+    display: flex;
+    align-items: center;
+}
+
+
+.button-left{
+    color: black;
+     width: 284.26px;
+    height: 65.6px;
+    border-radius: 4em;
+    background-color: white;
+    border: none;
+
+
+}
+.text-input{
+    display: flex;
+    width: 218px;
+    height: 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#text-input{
+    border: none;
+    position: relative;
+    top: 1.5em;
+    color: grey;
+    
+   
+}
+.where-txt{
+    position: relative;
+    top: 1em;
+    font-size: 14px;
+    left: 2em;
+}
+.button-center1{
+    width: 140.74px;
+    height: 64px;
+}
+.small-img{
+    display: flex;
+    overflow: auto;
+    justify-content: space-evenly;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 6em;
+    margin-top: 1em;
+}
+.icon1{
+    width: 24px;
+    height: 24px;
+    margin-left: 4em;
+    margin-top: 1em;
+}
+.icons-txt{
+    /* text-align: center; */
+    margin-left: 5.5em;
+    /* background-color: yellow; */
+
+}
+.amazing-pool-image{
+    display: flex;
+    flex-direction: column;
+}
+
+.amazing-pools-txt{
+text-align: center;
+margin-left: 2em;
+color: grey;
+}
+img{
+    width: 100%;
+}
+.medium-img{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 3em;
+    /* column-gap: 20px; */
+   
+}
+.make-core-memories-img{
+    width: 326.13px;
+    height: 296.2px;
+    margin-top: 3em;
+    margin-left: 3em;
+    border-radius: 2em;
+   
+    
+}
+.make-core-memories-img1{
+    width: 326.13px;
+    height: 296.2px;
+    margin-top: 3em;
+    margin-left: 1em;
+    border-radius: 2em;
+}
+.images{
+     display: grid;
+    grid-template-columns: repeat(6,1fr);
+    
+}
+.images-txt{
+    display: grid;
+     /* grid-template-columns: repeat(6,1fr);  */
+    /* grid-template-rows: repeat(4,1fr); */ */
+}
+.img-txt{
+    display: grid;
+    grid-template-rows: repeat(3); 
+    margin-left: 3em;
+    margin-top: 1em;
+} 
+.img1-txt1{
+    width: 326.13px;
+    height: 296.2px;
+    border-radius: 2em;
+    margin-top: 3em;
+    margin-left: 3em;
+}
+.img-txt1{
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+.img-txt2{
+    color: grey;
+}
